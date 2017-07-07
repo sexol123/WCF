@@ -1,0 +1,11 @@
+c:\users\sergei\documents\visual studio 2017\Projects\WcfExamService\WcfExamService\bin\WcfExamService.dll.config
+c:\users\sergei\documents\visual studio 2017\Projects\WcfExamService\WcfExamService\bin\WcfExamService.dll
+c:\users\sergei\documents\visual studio 2017\Projects\WcfExamService\WcfExamService\bin\WcfExamService.pdb
+c:\users\sergei\documents\visual studio 2017\Projects\WcfExamService\WcfExamService\bin\EntityFramework.dll
+c:\users\sergei\documents\visual studio 2017\Projects\WcfExamService\WcfExamService\bin\EntityFramework.SqlServer.dll
+c:\users\sergei\documents\visual studio 2017\Projects\WcfExamService\WcfExamService\bin\EntityFramework.xml
+c:\users\sergei\documents\visual studio 2017\Projects\WcfExamService\WcfExamService\bin\EntityFramework.SqlServer.xml
+c:\users\sergei\documents\visual studio 2017\Projects\WcfExamService\WcfExamService\bin\ru\EntityFramework.resources.dll
+c:\users\sergei\documents\visual studio 2017\Projects\WcfExamService\WcfExamService\obj\Debug\WcfExamService.dll
+c:\users\sergei\documents\visual studio 2017\Projects\WcfExamService\WcfExamService\obj\Debug\WcfExamService.pdb
+C:\Users\sergei\Documents\Visual Studio 2017\Projects\WcfExamService\WcfExamService\obj\Debug\WcfExamService.csprojResolveAssemblyReference.cache

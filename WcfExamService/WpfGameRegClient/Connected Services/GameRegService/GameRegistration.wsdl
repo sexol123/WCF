@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="GameRegistration" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:57098/GameRegistration.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:57098/GameRegistration.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:57098/GameRegistration.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WcfExamService" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IGameRegistration_GetData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetData" />
+  </wsdl:message>
+  <wsdl:message name="IGameRegistration_GetData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGameRegistration_GetDataUsingDataContract_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContract" />
+  </wsdl:message>
+  <wsdl:message name="IGameRegistration_GetDataUsingDataContract_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContractResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGameRegistration_TestConnection_InputMessage">
+    <wsdl:part name="parameters" element="tns:TestConnection" />
+  </wsdl:message>
+  <wsdl:message name="IGameRegistration_TestConnection_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TestConnectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGameRegistration_AddNewGamerToDb_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddNewGamerToDb" />
+  </wsdl:message>
+  <wsdl:message name="IGameRegistration_AddNewGamerToDb_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddNewGamerToDbResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGameRegistration_LoginToReg_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoginToReg" />
+  </wsdl:message>
+  <wsdl:message name="IGameRegistration_LoginToReg_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoginToRegResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGameRegistration_AddNewGamerToDbString_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddNewGamerToDbString" />
+  </wsdl:message>
+  <wsdl:message name="IGameRegistration_AddNewGamerToDbString_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddNewGamerToDbStringResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IGameRegistration">
+    <wsdl:operation name="GetData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGameRegistration/GetData" message="tns:IGameRegistration_GetData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGameRegistration/GetDataResponse" message="tns:IGameRegistration_GetData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGameRegistration/GetDataUsingDataContract" message="tns:IGameRegistration_GetDataUsingDataContract_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGameRegistration/GetDataUsingDataContractResponse" message="tns:IGameRegistration_GetDataUsingDataContract_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TestConnection">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGameRegistration/TestConnection" message="tns:IGameRegistration_TestConnection_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGameRegistration/TestConnectionResponse" message="tns:IGameRegistration_TestConnection_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddNewGamerToDb">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGameRegistration/AddNewGamerToDb" message="tns:IGameRegistration_AddNewGamerToDb_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGameRegistration/AddNewGamerToDbResponse" message="tns:IGameRegistration_AddNewGamerToDb_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoginToReg">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGameRegistration/LoginToReg" message="tns:IGameRegistration_LoginToReg_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGameRegistration/LoginToRegResponse" message="tns:IGameRegistration_LoginToReg_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddNewGamerToDbString">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGameRegistration/AddNewGamerToDbString" message="tns:IGameRegistration_AddNewGamerToDbString_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGameRegistration/AddNewGamerToDbStringResponse" message="tns:IGameRegistration_AddNewGamerToDbString_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IGameRegistration" type="tns:IGameRegistration">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetData">
+      <soap:operation soapAction="http://tempuri.org/IGameRegistration/GetData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <soap:operation soapAction="http://tempuri.org/IGameRegistration/GetDataUsingDataContract" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestConnection">
+      <soap:operation soapAction="http://tempuri.org/IGameRegistration/TestConnection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddNewGamerToDb">
+      <soap:operation soapAction="http://tempuri.org/IGameRegistration/AddNewGamerToDb" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoginToReg">
+      <soap:operation soapAction="http://tempuri.org/IGameRegistration/LoginToReg" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddNewGamerToDbString">
+      <soap:operation soapAction="http://tempuri.org/IGameRegistration/AddNewGamerToDbString" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="GameRegistration">
+    <wsdl:port name="BasicHttpBinding_IGameRegistration" binding="tns:BasicHttpBinding_IGameRegistration">
+      <soap:address location="http://localhost:57098/GameRegistration.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

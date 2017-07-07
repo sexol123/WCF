@@ -1,0 +1,14 @@
+c:\users\sergei\documents\visual studio 2017\Projects\WcfExamService\WpfGameRegClient\bin\Debug\WpfGameRegClient.exe.config
+c:\users\sergei\documents\visual studio 2017\Projects\WcfExamService\WpfGameRegClient\bin\Debug\WpfGameRegClient.exe
+c:\users\sergei\documents\visual studio 2017\Projects\WcfExamService\WpfGameRegClient\bin\Debug\WpfGameRegClient.pdb
+c:\users\sergei\documents\visual studio 2017\Projects\WcfExamService\WpfGameRegClient\obj\Debug\MainWindow.g.cs
+c:\users\sergei\documents\visual studio 2017\Projects\WcfExamService\WpfGameRegClient\obj\Debug\App.g.cs
+c:\users\sergei\documents\visual studio 2017\Projects\WcfExamService\WpfGameRegClient\obj\Debug\WpfGameRegClient_MarkupCompile.cache
+c:\users\sergei\documents\visual studio 2017\Projects\WcfExamService\WpfGameRegClient\obj\Debug\WpfGameRegClient_MarkupCompile.lref
+c:\users\sergei\documents\visual studio 2017\Projects\WcfExamService\WpfGameRegClient\obj\Debug\MainWindow.baml
+c:\users\sergei\documents\visual studio 2017\Projects\WcfExamService\WpfGameRegClient\obj\Debug\WpfGameRegClient.g.resources
+c:\users\sergei\documents\visual studio 2017\Projects\WcfExamService\WpfGameRegClient\obj\Debug\WpfGameRegClient.Properties.Resources.resources
+c:\users\sergei\documents\visual studio 2017\Projects\WcfExamService\WpfGameRegClient\obj\Debug\WpfGameRegClient.csproj.GenerateResource.Cache
+c:\users\sergei\documents\visual studio 2017\Projects\WcfExamService\WpfGameRegClient\obj\Debug\WpfGameRegClient.exe
+c:\users\sergei\documents\visual studio 2017\Projects\WcfExamService\WpfGameRegClient\obj\Debug\WpfGameRegClient.pdb
+C:\Users\sergei\Documents\Visual Studio 2017\Projects\WcfExamService\WpfGameRegClient\obj\Debug\WpfGameRegClient.csprojResolveAssemblyReference.cache

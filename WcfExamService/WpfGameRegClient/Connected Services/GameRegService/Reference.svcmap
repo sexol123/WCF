@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="16251b6f-a554-492d-90bc-da884a3019d5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:57098/GameRegistration.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="GameRegistration.xsd" MetadataType="Schema" ID="d5537b85-68c3-4cdf-a928-e097d5c10bae" SourceId="1" SourceUrl="http://localhost:57098/GameRegistration.svc?xsd=xsd2" />
+    <MetadataFile FileName="GameRegistration.wsdl" MetadataType="Wsdl" ID="fc64408b-119b-4217-a065-0dcd858b8406" SourceId="1" SourceUrl="http://localhost:57098/GameRegistration.svc?wsdl" />
+    <MetadataFile FileName="GameRegistration1.xsd" MetadataType="Schema" ID="0c544621-4929-4c3f-ae1d-0ce179e6b08b" SourceId="1" SourceUrl="http://localhost:57098/GameRegistration.svc?xsd=xsd1" />
+    <MetadataFile FileName="GameRegistration.disco" MetadataType="Disco" ID="bb4dad70-f800-4aec-b7ff-b22f0bcba566" SourceId="1" SourceUrl="http://localhost:57098/GameRegistration.svc?disco" />
+    <MetadataFile FileName="GameRegistration2.xsd" MetadataType="Schema" ID="32834d9b-beeb-47eb-a67a-8500dd002195" SourceId="1" SourceUrl="http://localhost:57098/GameRegistration.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
